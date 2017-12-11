@@ -263,5 +263,11 @@ namespace SimpleMySQLBackup
                 e.Cancel = true;
             }
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            About f2 = new About();
+            f2.ShowDialog();
+        }
     }
 }
